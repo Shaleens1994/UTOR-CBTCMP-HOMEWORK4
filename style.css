@@ -1,0 +1,89 @@
+body {
+    background-color: #80817d;
+    font-family: Quicksand;
+}
+
+/* highscores and timer */
+.header {
+    background-color:  #3cdb8c;
+    padding: 15px 50px;
+    font-weight: 700;
+    margin-left: 1400px;
+}
+
+#clock {
+    float: right;
+}
+
+
+
+.code {
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+h1 {
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.code h1 {
+    font-size: 80px;
+}
+
+.begin {
+    clear: both;
+    float: center;
+    margin: 30px;
+    left: 500px;
+}
+
+
+
+
+.margin {
+    margin: 100px 30px;
+
+}
+
+
+.topscore {
+    display: none;
+}
+
+
+.topswitch{
+    display: inline!important;
+}
+
+
+
+
+.contentsec {
+    margin-top: 95px;
+    display: none;
+}
+
+
+
+.switch {
+    display: block !important;
+    margin: 15px 0;
+    background-color: #ffffff;
+    border:bottom;
+    color: black;
+    font-weight: 50px;
+    font-size: 30px;
+}
+
+
+.quiz {
+    display: none;
+}
+
+
+
+
+.firstsec {
+    display: none;
+}

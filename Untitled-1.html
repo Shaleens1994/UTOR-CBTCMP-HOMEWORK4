@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Code Quiz</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+     <div>
+    <span id="score">See Topscores</span>
+    <span id="clock">Time: 100 sec</span>
+     
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container code">
+       <h1>CODE-QUIZ</h1>
+          <button type="button" class="switch begin">Start Quiz
+    </button>
+    
+    </div>
+ <div class=" contentsec">
+      
+    <h3 class="ques"></h3>
+  <button type="button" class="switch eventrigger ans1"></button>
+  <button type="button" class="switch eventrigger ans2"></button>
+  <button type="button" class="switch eventrigger ans3"></button>
+  <button type="button" class="switch eventrigger ans4"></button>
+        <span id="result"></span>
+      
+    </div>
+  </div>
+ <div class="firstsec">
+   
+      
+   <h3>All done!</h3>
+ <p>Enter your name below:</p>
+    <input type="text" id="names"><br>
+        <button type="submit" class="switch eventrigger submit">Submit Scores</button>
+    
+    
+  </div>
+
+   <div class="container topscore">
+      <div>
+        <h3>Topscores</h3>
+        <div class="playerscore">
+     </div>
+        <button type="button" class="switch eventrigger topswitch playagain">Play-Again</button>
+        <button type="button" class="switch eventrigger topswitch clear">Clear </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
