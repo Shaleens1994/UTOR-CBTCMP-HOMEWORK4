@@ -153,7 +153,7 @@ contentsec.addEventListener("click", function(event){
 submit.addEventListener("click", function(event){
     event.preventDefault();
   
-    newUser();        
+    User();        
         
         firstsec.style.display = "none";
         document.querySelector(".topscore").style.display = "inline";
@@ -162,15 +162,15 @@ submit.addEventListener("click", function(event){
 
 
 
-function newUser() {
-    var userInitial = document.querySelector("#names").value;
-    if (userInitial === "") {
-        userInitial = "Failed to register Name";
+function User() {
+    var user1 = document.querySelector("#names").value;
+    if (user1 === "") {
+        user1 = "Failed to register Name";
     } 
-        localStorage.setItem(userInitial, timeleft);
+        localStorage.setItem(user1, timeleft);
         document.querySelector(".playerscore").textContent = " ";
         var p = document.createElement("p");
-        p.textContent = userInitial + ": " + timeleft;
+        p.textContent = user1 + ": " + timeleft;
         document.querySelector(".playerscore").appendChild(p);    
     
 }
